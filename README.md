@@ -22,7 +22,7 @@ Generated energies and times can be accessed as
 
 To run an example
 ````
- root -l -q root -l -q Example_1EBch_PUandSpikes.C+
+ root -l -q Example_1EBch_PUandSpikes.C+
 ````
 and inspect histograms and graphs in created
 ````
