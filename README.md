@@ -4,7 +4,19 @@ Generate energy deposited in a single EB crystal and APD from N MinBias interact
 
 ## How to use
 
-There are two steps. First, one need to initialize the channel by choosing its location in eta
+To run an example
+````
+ root -l -q Example_1EBch_PUandSpikes.C+
+````
+and inspect histograms and graphs in created
+````
+ output.root
+````
+
+## Details
+
+There are two steps in these simulations. 
+First, one need to initialize the channel by choosing its location in eta
 ````
  EBChannel *ch = new EBChannel(eta);
 ````
@@ -20,11 +32,3 @@ Generated energies and times can be accessed as
  ch->timeSpike()
 ````
 
-To run an example
-````
- root -l -q root -l -q Example_1EBch_PUandSpikes.C+
-````
-and inspect histograms and graphs in created
-````
- output.root
-````
