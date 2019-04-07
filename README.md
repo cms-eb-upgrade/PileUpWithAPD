@@ -31,7 +31,7 @@ Generated energies and times can be accessed as
 ````
 
 ## Example02
-https://github.com/cms-eb-upgrade/PileUpWithAPD
+
 Calculates ADC samples in GeV for each BX, four samples per BX (assuming 160 MHz sampling)
 ````
  root -l -q Example02.C+
